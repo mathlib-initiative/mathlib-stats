@@ -1,7 +1,6 @@
 name = "MathlibStats"
 version = "0.1.0"
 keywords = ["math"]
-defaultTargets = ["MathlibStats"]
 reservoir = false
 
 [[require]]
