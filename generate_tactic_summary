@@ -4,4 +4,5 @@ lake update
 # The following is the actual command we want to run.
 lake run scout --command tactics --dataDir data --library Mathlib
 
-uv run python generate_tactic_summary.py
+uv run python make_tactic_summary.py
+uv run python build_site.py
