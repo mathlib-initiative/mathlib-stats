@@ -1,0 +1,14 @@
+name = "MathlibStats"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["MathlibStats"]
+reservoir = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[require]]
+name = "lean_scout"
+git = "git@github.com:mathlib-initiative/lean_scout.git"
+rev = "sigint_fix"

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+lake update
+# The following is the actual command we want to run.
+lake run scout --command tactics --dataDir data --library Mathlib
+
+uv run python generate_tactic_summary.py

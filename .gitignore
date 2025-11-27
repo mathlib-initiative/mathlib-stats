@@ -1,0 +1,15 @@
+# Lean
+/.lake
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Generated
+_site/
+
+# Data files
+data
+
+.python-version
