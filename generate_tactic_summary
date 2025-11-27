@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 lake update
-lake run scout --command tactics --library Mathlib
+lake exe cache get
+lake run scout --command tactics --read lake run scout --command tactics --read .lake/packages/mathlib/Mathlib/Algebra/Prime/Lemmas.lean
 
 uv run python make_tactic_summary.py
 uv run python build_site.py

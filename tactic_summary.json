@@ -1,0 +1,20 @@
+{
+  "Lean.Parser.Tactic.exact": 12,
+  "Lean.Parser.Tactic.rwSeq": 7,
+  "Lean.Parser.Tactic.obtain": 7,
+  "Lean.Parser.Tactic.simp": 6,
+  "Lean.Parser.Tactic.apply": 5,
+  "Lean.Parser.Tactic.refine": 4,
+  "Mathlib.Tactic.convert": 3,
+  "Lean.Parser.Tactic.\u00abtactic_<;>_\u00bb": 3,
+  "Lean.Parser.Tactic.intro": 2,
+  "Lean.Parser.Tactic.rcases": 2,
+  "Lean.Parser.Tactic.tacticRwa__": 2,
+  "Lean.Parser.Tactic.rintro": 1,
+  "Lean.Parser.Tactic.tacticLet__": 1,
+  "Lean.Parser.Tactic.induction": 1,
+  "Lean.Parser.Tactic.tacticHave__": 1,
+  "Lean.Parser.Tactic.simpa": 1,
+  "Batteries.Tactic.byContra": 1,
+  "Lean.Parser.Tactic.simpAll": 1
+}
