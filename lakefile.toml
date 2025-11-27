@@ -7,8 +7,9 @@ reservoir = false
 [[require]]
 name = "mathlib"
 scope = "leanprover-community"
+rev = "v4.26.0-rc2"
 
 [[require]]
 name = "lean_scout"
-git = "git@github.com:mathlib-initiative/lean_scout.git"
-rev = "sigint_fix"
+git = "https://github.com/mathlib-initiative/lean_scout.git"
+rev = "v4.26.0-rc2"
